@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- iOS optimized rounded square background -->
+  <defs>
+    <linearGradient id="iosBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004E64;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00A5CF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iosWaterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9FFFCB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00A5CF;stop-opacity:1" />
+    </linearGradient>
+    <filter id="iosShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#004E64" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded background (iOS style) -->
+  <rect x="0" y="0" width="180" height="180" rx="40" ry="40"
+        fill="url(#iosBgGradient)" filter="url(#iosShadow)"/>
+
+  <!-- Water drop shape centered -->
+  <path d="M90 50 C65 50, 40 75, 40 100 C40 125, 65 150, 90 150 C115 150, 140 125, 140 100 C140 75, 115 50, 90 50 Z"
+        fill="url(#iosWaterGradient)"
+        opacity="0.9"/>
+
+  <!-- Inner ring -->
+  <path d="M90 65 C70 65, 55 80, 55 100 C55 120, 70 135, 90 135 C110 135, 125 120, 125 100 C125 80, 110 65, 90 65 Z"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="3"
+        opacity="0.7"/>
+
+  <!-- Bubble details -->
+  <circle cx="70" cy="85" r="5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="110" cy="115" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="95" cy="75" r="2" fill="#ffffff" opacity="0.7"/>
+
+  <!-- Jalnova "J" text -->
+  <text x="90" y="108" font-family="Arial, sans-serif" font-size="42" font-weight="bold"
+        text-anchor="middle" fill="#004E64">J</text>
+</svg>

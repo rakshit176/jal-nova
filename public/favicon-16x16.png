@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- 16x16 favicon for legacy browsers -->
+  <circle cx="8" cy="8" r="7" fill="#004E64"/>
+  <path d="M8 4 C6 4, 4 6, 4 8 C4 10, 6 12, 8 12 C10 12, 12 10, 12 8 C12 6, 10 4, 8 4 Z"
+        fill="#00A5CF" opacity="0.9"/>
+  <circle cx="6.5" cy="7" r="0.8" fill="#9FFFCB" opacity="0.8"/>
+  <text x="8" y="10" font-family="Arial, sans-serif" font-size="6" font-weight="bold"
+        text-anchor="middle" fill="#004E64">J</text>
+</svg>
