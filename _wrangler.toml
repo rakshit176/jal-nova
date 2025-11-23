@@ -1,0 +1,12 @@
+name = "jalnova-water-app"
+compatibility_date = "2025-11-23"
+
+[assets]
+directory = "dist"
+binding = "ASSETS"
+
+[build]
+command = "npm run build"
+
+[env.production]
+assets = { directory = "dist" }

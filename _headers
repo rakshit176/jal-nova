@@ -1,0 +1,2 @@
+# Disable Next.js middleware for Cloudflare
+/api/admin/_middleware 200

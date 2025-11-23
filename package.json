@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "node build-cloudflare.js",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy"
   },
   "dependencies": {
     "next": "16.0.3",
